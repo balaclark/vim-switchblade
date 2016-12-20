@@ -14,6 +14,7 @@ function! switchblade#initialize(root)
   if len(checkers)
     let g:syntastic_javascript_checkers = checkers
     let g:neomake_javascript_enabled_makers = checkers
+    let g:neomake_javascript_jsx_enabled_makers = checkers
   endif
 endfunction
 
